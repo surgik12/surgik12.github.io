@@ -1,0 +1,84 @@
+
+.container{
+    padding: 0;
+}
+
+/*header*/
+header{
+    text-align: justify;
+    border-top: 5px solid black;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 3px;
+}
+header > h3{
+    margin: 0;
+}
+
+header > p{
+    margin: 0;
+}
+/*end header*/
+
+/*aside*/
+aside{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.choose{
+    width: 100%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+/*end aside*/
+
+/*main*/
+main > h1{
+    text-align: center;
+}
+
+main > h2{
+    text-align: center;
+}
+
+.img{
+    height: 35vh;
+    background-image: url(../images/excavator.jpg);
+    background-size: 100%;
+    background-position: center;
+    color: black;
+    padding-top: 25px;
+}
+
+.img > div{
+    background-color: rgba(239, 241, 243, 0.6);
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.img > div > p{
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main > p{
+    text-align: justify;
+}
+
+/*end main*/
+
+/*footer*/
+footer{
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: end;
+    color: white;
+}
+/*end footer*/
