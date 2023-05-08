@@ -79,6 +79,22 @@ main > p{
     padding-right: 5px;
 }
 
+#icons > span > i{
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(70, 70, 70);
+}
+
+span > p{
+    font-weight: bold;
+}
+
+#icons > span > i:first-child{
+    margin-top: 25px;
+}
+
 /*end main*/
 
 /*footer*/
